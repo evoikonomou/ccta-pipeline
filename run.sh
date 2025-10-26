@@ -1,1 +1,0 @@
-python extract_dicom_data.py   --root /home/eo287/mnt/s3_ccta/cta_09232025/studies   --out  /home/eo287/mnt/s3_ccta/summaries/ccta_series_headers_only.csv   --workers 8 --include-private --max-seq-depth 2
