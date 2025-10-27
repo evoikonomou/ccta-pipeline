@@ -349,7 +349,7 @@ def main():
                     help="Path to studies root folder (containing study subfolders)")
     ap.add_argument("--out", default=DEFAULT_OUT, 
                     help="Output CSV path")
-    ap.add_argument("--threads", type=int, default=16, 
+    ap.add_argument("--threads", type=int, default=8, 
                     help="Parallel threads per study (16-64 recommended for S3/FUSE)")
     ap.add_argument("--study-parallel", type=int, default=8,
                     help="Number of studies to process in parallel (2-8 recommended)")
